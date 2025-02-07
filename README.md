@@ -12,7 +12,7 @@ Setting up the Got/Github link.
 
 Commands used = "git clone PASTED.URL", "git config pull.rebase false", "git pull", "git add .", "git push", "git commit -m "test"", "ls", "cd (..)", 
 
-Order of usage
+Order of usage in Cmder.
  - go to file where updates were made.
  - "ls"
  - Check file is up to date with "git push"
