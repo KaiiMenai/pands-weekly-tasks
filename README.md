@@ -12,4 +12,16 @@ Setting up the Got/Github link.
 
 Commands used = "git clone PASTED.URL", "git config pull.rebase false", "git pull", "git add .", "git push", "git commit -m "test"", "ls", "cd (..)", 
 
+Order of usage
+ - go to file where updates were made.
+ - "ls"
+ - Check file is up to date with "git push"
+ - "git config pull.rebase false"
+ - "git add ."
+ - "ls"
+ - "git commit -m "updated README my work""
+ - "git push"
+
+ Probably too many steps, but checking through this list of commands/prompts helps to determine the steps needed/what is missing.
+
 ## Week 2 - 
