@@ -12,7 +12,7 @@ Setting up the Got/Github link.
 
 Commands used = "git clone PASTED.URL", "git config pull.rebase false", "git pull", "git add .", "git push", "git commit -m "test"", "ls", "cd (..)", 
 
-Order of usage in Cmder.
+Order of usage in Cmder. *don't forget to commit and push in VSCode first*
  - go to file where updates were made.
  - "ls"
  - Check file is up to date with "git push"
