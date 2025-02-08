@@ -24,4 +24,8 @@ Order of usage in Cmder. *don't forget to commit and push in VSCode first*
 
  Probably too many steps, but checking through this list of commands/prompts helps to determine the steps needed/what is missing.
 
-## Week 2 - 
+## Week 2 - Creating first program
+
+- Make a wk2 folder in pands-mywork
+- Create Python that will print "Hello World" upon use.
+- When writing program - include comments above the command to inform of program functino, author, and any other details.
