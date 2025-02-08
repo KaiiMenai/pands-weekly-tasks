@@ -29,3 +29,4 @@ Order of usage in Cmder. *don't forget to commit and push in VSCode first*
 - Make a wk2 folder in pands-mywork
 - Create Python that will print "Hello World" upon use.
 - When writing program - include comments above the command to inform of program functino, author, and any other details.
+- Week 2 bank.py program made that asks for input in cent, converts to give output in euros.

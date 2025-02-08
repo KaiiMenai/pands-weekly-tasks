@@ -1,7 +1,9 @@
+# bank.py
 # Week 2 task
-# The program should:
+# author: Kyra Menai Hamilton
 
-#Prompt the user and read in two money amounts (in cent)
+# Week 2 task brief - The program should:
+#Prompt the user and read in two money amounts (in cent).
 #Add the two amounts
 #Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount 
 #$ python bank.py
