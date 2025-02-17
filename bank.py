@@ -20,10 +20,10 @@ print("Hello," + "\tPlease enter the following amounts in cents.")
 x = input("Enter amount 1: ")
 y = input("Enter amount 2: ")
 sum = int(x) + int(y)
-def convertToCent(sum):
+def converttoeuro(sum):
     return '€{:,.2f}'.format(sum/100)
 
-txt = f"The sum of these is {convertToCent(sum)}."
+txt = f"The sum of these is {converttoeuro(sum)}."
 print(txt)
 
 # When an input is given of the values listed in the brief the outcome is as follows:
