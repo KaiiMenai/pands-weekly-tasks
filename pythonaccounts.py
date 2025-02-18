@@ -21,7 +21,7 @@ while len(number) != 10:
     number = input("That was not a 10 digit number. Please enter your 10 digit account number: ") # I modified the program so that if a number that wasn't 10 digits was entered, the user would be prompted to enter a 10 digit number.
 
 def accountnumber(number):
-    return number[-4:]
+    return number[-4:]               # This will take the last 4 digits of the account number.
 
 # firstsix = number.replace(number[0:6], "XXXXXX")
 # Instead of typing individual X's for each of the characters to be replaced. I need to modify the program to read the number and give the output of characters 1 to 6 as X's. That is replace the first 6 characters with 'X's
@@ -62,10 +62,9 @@ print("Hello," + "\tPlease enter your account number.")
 second = input("Enter your account number: ")
 
 def accountnumber(second):
-    return second[-4:]          # This will take the last 4 digits of the account number.
+    return second[-4:]          
 
-# Replace all characters except the last 4 with 'X's
-allbarfour = 'X' * (len(second) - 4) + second[-4:]
+allbarfour = 'X' * (len(second) - 4) + second[-4:]      # Replace all characters except the last 4 with 'X's
 
 print(f"The last 4 digits of your account number are {accountnumber(second)}.")
 print(f"Thank you account: {allbarfour}.")
