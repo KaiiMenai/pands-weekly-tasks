@@ -18,33 +18,34 @@
 print("Hello," + "\tPlease enter your 10 digit account number.")
 number = input("Enter your account number: ")
 while len(number) != 10:
-    number = input('That was not a 10 digit number. Please enter your 10 digit number. ')
+    number = input("That was not a 10 digit number. Please enter your 10 digit account number: ") # I modified the program so that if a number that wasn't 10 digits was entered, the user would be prompted to enter a 10 digit number.
 
-def accountnumber(x):
+def accountnumber(number):
     return number[-4:]
-firstsix = number.replace(number[0:6], "XXXXXX")
+
+# firstsix = number.replace(number[0:6], "XXXXXX")
+# Instead of typing individual X's for each of the characters to be replaced. I need to modify the program to read the number and give the output of characters 1 to 6 as X's. That is replace the first 6 characters with 'X's
+
+firstsix = 'X' * 6 + number[6:]
+
 print(f"The last 4 digits of your account number are {accountnumber(number)}.")
 print(f"Thank you account: {firstsix}." )
 
 # Output:
     # Hello,  Please enter your 10 digit account number.
-    # Enter your account number: 1234567890
+    # Enter your account number: 1234
+    # That was not a 10 digit number. Please enter your 10 digit account number: 1234567890
     # The last 4 digits of your account number are 7890.
     # Thank you account: XXXXXX7890.
-# Instead of typing individual X's for each of the characters to be replaced.
-
-# Modifying the [0:6] (this goes forward) to [0:-4] (this goes backward) will go from character 0 to the 4th last character and replace them with X.
 
 # This Output is based on a number of assumptions: 
     # The user will input a: 
-        # 10 digit account number.
         # number.
         # no spaces.
         # no special characters.
         # no letters.
         # no symbols.
 
-# The extra reading I did for this task was to understand the slice function in Python. https://www.w3schools.com/python/ref_func_slice.asp
 
 # Extra
     # Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
@@ -55,15 +56,25 @@ print(f"Thank you account: {firstsix}." )
 # Use the slice function to take the last 4 digits of the account number.
 # Print the last 4 digits of the account number.
 
-# print("Hello," + "\tPlease enter your account number.")
-# second = input("Enter your account number: ")
+# In order to modify this for any length of input, the length input will need to be used. So could use len(in)-4.
 
-# def accountnumber(x):
-#    return second[-4:]      # This will take the last 4 digits of the account number.
-# lastfour = second.replace(second[0:-4], "X") # This will replace all digits except the last 4 with X.
+print("Hello," + "\tPlease enter your account number.")
+second = input("Enter your account number: ")
 
-# print(f"The last 4 digits of your account number are {accountnumber(second)}.")
-# print(f"Thank you account: {lastfour}.")
+def accountnumber(second):
+    return second[-4:]          # This will take the last 4 digits of the account number.
+
+# Replace all characters except the last 4 with 'X's
+allbarfour = 'X' * (len(second) - 4) + second[-4:]
+
+print(f"The last 4 digits of your account number are {accountnumber(second)}.")
+print(f"Thank you account: {allbarfour}.")
+
+# Output:
+    # Hello,  Please enter your account number.
+    # Enter your account number: 112233445566
+    # The last 4 digits of your account number are 5566.
+    # Thank you account: XXXXXXXX5566.
 
 # References:   
     # My own Ppands-my work repository https://github.com/KaiiMenai/pands-mywork/blob/12940891d05aaf77403654a383bcd57e7e86c184/week02/money.py
@@ -71,3 +82,8 @@ print(f"Thank you account: {firstsix}." )
     # Extra reading worksheet https://realpython.com/python-string-formatting/#interpolating-and-formatting-strings-in-python
     # Extra reading https://www.w3schools.com/python/ref_func_slice.asp
     # To limit input to 10 digits https://stackoverflow.com/questions/19970569/how-to-limit-the-input-of-a-user-to-only-10-digits
+    # Used length of input to limit the number of digits but also to replace all but the last 4 digits with X's. https://www.w3schools.com/python/ref_func_len.asp
+    # I asked copilot to expllain how I would modify the output characters 1 to 6/all bar last 4 as X's. https://copilot.github.com/
+    # The extra reading I did for this task was to understand the slice function in Python. https://www.w3schools.com/python/ref_func_slice.asp
+
+# End
