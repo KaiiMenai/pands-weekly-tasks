@@ -1,4 +1,5 @@
-# pandsaccount.py
+# accounts.py
+# Week 3 task
 # This program will read in a 10 character account number and will output the account numberwith only the last 4 digits shown.
 # author: Kyra Menai Hamilton
 
