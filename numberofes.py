@@ -1,5 +1,5 @@
 # numberofes.py
-# # Week 7 task
+# Week 7 task
 # This program will read in a text file and print out the number of e's contained therin.
 # author: Kyra Menai Hamilton
 
