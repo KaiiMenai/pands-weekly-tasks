@@ -15,6 +15,9 @@ Example code:
 print ('Hello World!')
 ```
 
+References:
+
+
 ## Week 2 - bank.py
 
 Python Program name: bank.py
@@ -39,6 +42,9 @@ def converttoeuro(sum):
 txt = f"The sum of these is {converttoeuro(sum)}."
 print(txt)
 ```
+
+References:
+
 
 ## Week 3 - accounts.py
 
@@ -83,6 +89,9 @@ print(f"The last 4 digits of your account number are {accountnumber(second)}.")
 print(f"Thank you account: {allbarfour}.")
 ```
 
+References:
+
+
 ## Week 4 - collatz.py
 
 Python Program name: collatz.py
@@ -110,6 +119,9 @@ while True:
             number = number * 3 + 1
         print(number)
 ```
+
+References:
+
 
 ## Week 5 - weekday.py
 
@@ -139,6 +151,9 @@ else:
     print(f"{days_to_weekend} days until the weekend.")
 ```
 
+References:
+
+
 ## Week 6 - squareroot.py
 
 Python Program name: squareroot.py
@@ -164,6 +179,9 @@ else:
         approx_root = (approx_root + to_root/approx_root)/2             # The approximation will be updated using the formula for Newton's method.
     print(f"The square root of {to_root} is approx. {approx_root:.2f}.")    # The approx. square root will be printed out.
 ```
+
+References:
+
 
 ## Week 7 - numberofes.py
 
@@ -213,6 +231,9 @@ if total_count > 0:
 else:
     print("Failed to count the occurrences of 'e'.")
 ```
+
+References:
+
 
 ## Week 8 - plottask.py
 
@@ -309,3 +330,6 @@ plt.legend(title='Legend')
 plt.savefig('week8task_figure_3_combined_plot.png')
 plt.show()
 ```
+
+References:
+
