@@ -22,14 +22,13 @@ values = np.round(rdm_values, 2)
 
 # Now to plot the histogram of the normal distribution. Making sure to include labelling and legends.add_subplot(111) is used to create a single plot.
 
-plt.hist(values, bins=30, color='c', edgecolor='black', alpha=0.7, label='Normal Distribution Values')
+plt.hist(values, bins=30, color='c', edgecolor='black', alpha=0.7, label='Normal Distribution Values (mean = 5, std = 2)')
 plt.xlabel('Values')
 plt.ylabel('Frequency')
 plt.title('Histogram of a Normal Distribution for 1000 random values \n(Mean = 5, Standard Deviation = 2)')
 plt.legend(title='Legend')
 # Save the figure as a PNG file
 plt.savefig('week8task_figure_1_normaldist1000.png')
-plt.show()
 plt.show()
 
 # Plot output shown in: week8task_figure_1_normaldis1000.png for histogram of normal distribution of 1000 values.
@@ -47,7 +46,8 @@ plt.plot(x, y, color='m', label='h(x)=x^3')
 plt.xlabel('x')
 plt.ylabel('h(x)')
 plt.title('Plot of the function h(x)=x^3 in the range 0 to 10.')
-plt.legend()
+plt.legend(title='Legend')
+plt.savefig('week8task_figure_2_h(x)plot.png')
 plt.show()
 
 # Plot output shown in: week8task_figure_2_hx3.png for plot of the function h(x)=x^3 in the range 0 to 10.
