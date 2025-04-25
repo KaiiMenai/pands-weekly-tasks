@@ -16,7 +16,8 @@ print ('Hello World!')
 ```
 
 References:
-Datacamp (n.d.) Python Hello World: A Beginner’s Guide to Programming. Available at: https://www.datacamp.com/tutorial/python-hello-world-a-beginners-guide-to-programming (Accessed: 25 April 2025).
+
+Datacamp (n.d.) Python Hello World: A Beginner’s Guide to Programming. Available at: https://www.datacamp.com/tutorial/python-hello-world-a-beginners-guide-to-programming
 
 ## Week 2 - bank.py
 
@@ -45,6 +46,11 @@ print(txt)
 
 References:
 
+Menai, K. (n.d.) pands-mywork repository – week02/money.py. Available at: https://github.com/KaiiMenai/pands-mywork/blob/12940891d05aaf77403654a383bcd57e7e86c184/week02/money.py
+
+Elegent (2015) Convert cents to euro. Stack Overflow. Available at: https://stackoverflow.com/questions/33861401/convert-cents-to-euro
+
+W3Schools (n.d.) Python String Formatting. Available at: https://www.w3schools.com/python/python_string_formatting.asp
 
 ## Week 3 - accounts.py
 
