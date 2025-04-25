@@ -78,7 +78,7 @@ print(f"Thank you account: {allbarfour}.")
 
 # References:   
     # My own pands-my work repository https://github.com/KaiiMenai/pands-mywork/blob/12940891d05aaf77403654a383bcd57e7e86c184/week02/money.py
-    # Weekly Task 2 bank.py
+    # Weekly Task 2 bank.py https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/bank.py
     # Extra reading worksheet https://realpython.com/python-string-formatting/#interpolating-and-formatting-strings-in-python
     # Extra reading https://www.w3schools.com/python/ref_func_slice.asp
     # To limit input to 10 digits https://stackoverflow.com/questions/19970569/how-to-limit-the-input-of-a-user-to-only-10-digits
