@@ -16,7 +16,7 @@ print ('Hello World!')
 ```
 
 References:
-
+Datacamp (n.d.) Python Hello World: A Beginner’s Guide to Programming. Available at: https://www.datacamp.com/tutorial/python-hello-world-a-beginners-guide-to-programming (Accessed: 25 April 2025).
 
 ## Week 2 - bank.py
 
