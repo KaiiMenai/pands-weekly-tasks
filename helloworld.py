@@ -1,5 +1,6 @@
 # helloworld.py
-# Ptints "Hello, world!" to the screen.
+# Week 1 task
+# Prints "Hello, world!" to the screen.
 # author: Kyra Menai Hamilton
 
 print ('Hello, world!')
