@@ -105,7 +105,9 @@ while True:
 Python Program name: weekday.py
 Brief Task Description: # Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py). You will need to search the web to find how you work out what day it is. There is no user input.
 Packages:
+```
 import datetime
+```
 
 Example code:
 ```
@@ -125,15 +127,24 @@ else:
 Python Program name: TITLE
 Brief Task Description: DESCRIPTION
 Example code:
+```
 
-## Week 7
+```
 
-Python Program name: TITLE
+## Week 7 - numberofes.py
+
+Python Program name: numberofes.py
 Brief Task Description: DESCRIPTION
 Example code:
+```
 
-## Week 8
+```
 
-Python Program name: TITLE
+## Week 8 - plottask.py
+
+Python Program name: plottask.py
 Brief Task Description: DESCRIPTION
 Example code:
+```
+
+```
