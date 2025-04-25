@@ -17,10 +17,6 @@ Example code:
 print ('Hello World!')
 ```
 
-References:
-
-Datacamp (n.d.) Python Hello World: A Beginner’s Guide to Programming. Available at: https://www.datacamp.com/tutorial/python-hello-world-a-beginners-guide-to-programming
-
 ## Week 2 - bank.py
 
 Python Program name: bank.py
@@ -45,14 +41,6 @@ def converttoeuro(sum):
 txt = f"The sum of these is {converttoeuro(sum)}."
 print(txt)
 ```
-
-References:
-
-Menai, K. (n.d.) pands-mywork repository – week02/money.py. Available at: https://github.com/KaiiMenai/pands-mywork/blob/12940891d05aaf77403654a383bcd57e7e86c184/week02/money.py
-
-Elegent (2015) Convert cents to euro. Stack Overflow. Available at: https://stackoverflow.com/questions/33861401/convert-cents-to-euro
-
-W3Schools (n.d.) Python String Formatting. Available at: https://www.w3schools.com/python/python_string_formatting.asp
 
 ## Week 3 - accounts.py
 
@@ -97,22 +85,6 @@ print(f"The last 4 digits of your account number are {accountnumber(second)}.")
 print(f"Thank you account: {allbarfour}.")
 ```
 
-References:
-
-Menai, K. (n.d.) pands-mywork repository – week02/money.py. Available at: https://github.com/KaiiMenai/pands-mywork/blob/12940891d05aaf77403654a383bcd57e7e86c184/week02/money.py
-
-Menai, K. (n.d.) Weekly Task 2 – bank.py. Available at: https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/bank.py
-
-Real Python (n.d.) Python String Formatting. Available at: https://realpython.com/python-string-formatting/#interpolating-and-formatting-strings-in-python
-
-W3Schools (n.d.) Python ref_func_slice() Method. Available at: https://www.w3schools.com/python/ref_func_slice.asp
-
-Stack Overflow (2013) How to limit the input of a user to only 10 digits. Available at: https://stackoverflow.com/questions/19970569/how-to-limit-the-input-of-a-user-to-only-10-digits
-
-W3Schools (n.d.) Python ref_func_len() Method. Available at: https://www.w3schools.com/python/ref_func_len.asp
-
-GitHub Copilot (n.d.) GitHub Copilot. (Asked copilot to explain how to would modify the output characters 1 to 6/all bar last 4 as X's.) Available at: https://copilot.github.com/
-
 ## Week 4 - collatz.py
 
 Python Program name: collatz.py
@@ -140,18 +112,6 @@ while True:
             number = number * 3 + 1
         print(number)
 ```
-
-References:
-
-Veritasium (2021) The Simplest Math Problem No One Can Solve - Collatz Conjecture. YouTube. Available at: https://www.youtube.com/watch?v=094y1Z2wpJg&t=1s
-
-Menai, K. (n.d.) whileloop.py – pands-mywork repository. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/whileloop.py
-
-Menai, K. (n.d.) userinloop.py – pands-mywork repository. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/userinloop.py
-
-Menai, K. (n.d.) iseven.py – pands-mywork repository. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/iseven.py
-
-Menai, K. (n.d.) iseven2.py – pands-mywork repository. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/iseven2.py
 
 ## Week 5 - weekday.py
 
@@ -181,16 +141,6 @@ else:
     print(f"{days_to_weekend} days until the weekend.")
 ```
 
-References:
-
-Python Software Foundation (n.d.) datetime — Basic date and time types. Available at: https://docs.python.org/3/library/datetime.html
-
-W3Schools (n.d.) Python datetime Module. Available at: https://www.w3schools.com/python/python_datetime.asp
-
-Programiz (n.d.) Python datetime: Manipulate Dates and Times in Python. Available at: https://www.programiz.com/python-programming/datetime/current-datetime
-
-SheCodes (n.d.) How to Check What Day of the Week It Is in Python. Available at: https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python
-
 ## Week 6 - squareroot.py
 
 Python Program name: squareroot.py
@@ -216,28 +166,6 @@ else:
         approx_root = (approx_root + to_root/approx_root)/2             # The approximation will be updated using the formula for Newton's method.
     print(f"The square root of {to_root} is approx. {approx_root:.2f}.")    # The approx. square root will be printed out.
 ```
-
-References:
-
-Flexiple (n.d.) Newton Raphson Method in Python. Available at: https://flexiple.com/python/newton-raphson-method-python
-
-GeeksforGeeks (n.d.) Square root of a perfect square. Available at: https://www.geeksforgeeks.org/square-root-of-a-perfect-square/
-
-GeeksforGeeks (n.d.) Find root of a number using Newton’s method. Available at: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
-
-GeeksforGeeks (n.d.) Program for Newton-Raphson Method. Available at: https://www.geeksforgeeks.org/program-for-newton-raphson-method/
-
-Menai, K. (n.d.) grade2.py – Basic structure of if/else loop. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/grade2.py
-
-Menai, K. (n.d.) stringformat.py – Format output to 2 decimal places. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week03/stringformat.py
-
-Real Python (n.d.) Python While Loops – A Comprehensive Guide. Available at: https://realpython.com/python-while-loop/
-
-Real Python (n.d.) Understanding Python Iterators: A Guide. Available at: https://realpython.com/python-iterators/
-
-Real Python (n.d.) Using Assignment Expressions in Python. Available at: https://realpython.com/python-assignment-expressions/
-
-Wikipedia (n.d.) Newton's method. Available at: https://en.wikipedia.org/wiki/Newton%27s_method
 
 ## Week 7 - numberofes.py
 
@@ -287,24 +215,6 @@ if total_count > 0:
 else:
     print("Failed to count the occurrences of 'e'.")
 ```
-
-References:
-
-Clontz, S. (n.d.) mobydick.txt – Moby Dick full text (Herman Melville). Available at: https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665d940495645a5eaaad4da8e3ad4c7/mobydick.txt
-
-Clontz, S. (n.d.) mobydick.txt (gist repository overview). Available at: https://gist.github.com/StevenClontz/4445774#file-mobydick-txt
-
-Killbourne, A.M. and Williams, M.V. (2003) ‘Understanding the literature on cultural competence and health care disparities’, Public Health Reports, 118(4), pp. 293–302. Available at: https://pmc.ncbi.nlm.nih.gov/articles/PMC1480066/
-
-Menai, K. (n.d.) accounts.py – pands-weekly-tasks repository. Available at: https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/accounts.py
-
-Menai, K. (n.d.) collatz.py – pands-weekly-tasks repository. Available at: https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/collatz.py
-
-Python Software Foundation (n.d.) Built-in Exceptions. Available at: https://docs.python.org/3/library/exceptions.html
-
-Python Software Foundation (n.d.) Errors and Exceptions – Python 3 Tutorial. Available at: https://docs.python.org/3/tutorial/errors.html
-
-Python Software Foundation (n.d.) urllib.request — Extensible library for opening URLs. Available at: https://docs.python.org/3/library/urllib.request.html
 
 ## Week 8 - plottask.py
 
@@ -402,28 +312,88 @@ plt.savefig('week8task_figure_3_combined_plot.png')
 plt.show()
 ```
 
-References:
+## References
 
-Matplotlib (n.d.) matplotlib.pyplot.hist — Plot a histogram. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html
+Clontz, S. (n.d.) *mobydick.txt – Moby Dick full text (Herman Melville)*. Available at: https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665d940495645a5eaaad4da8e3ad4c7/mobydick.txt (*Week 7, numberofes.py*).
 
-Matplotlib (n.d.) matplotlib.pyplot.plot — Plot lines and/or markers to the axes. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+Clontz, S. (n.d.) *mobydick.txt (gist repository overview)*. Available at: https://gist.github.com/StevenClontz/4445774#file-mobydick-txt (*Week 7, numberofes.py*).
 
-Matplotlib (n.d.) matplotlib.colors — Colors in Matplotlib. Available at: https://matplotlib.org/stable/tutorials/colors/colors.html
+Elegent (2015) ‘Convert cents to euro’. *Stack Overflow*. Available at: https://stackoverflow.com/questions/33861401/convert-cents-to-euro (*Week 2, bank.py*).
 
-Matplotlib (n.d.) matplotlib.pyplot — Matplotlib’s Pyplot. Available at: https://matplotlib.org/stable/tutorials/introductory/pyplot.html
+GeeksforGeeks (n.d.) *Find root of a number using Newton’s method*. Available at: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/ (*Week 6, squareroot.py*).
 
-Matplotlib (n.d.) matplotlib.legend — Matplotlib Legend Guide. Available at: https://matplotlib.org/stable/tutorials/intermediate/legend_guide.html
+GeeksforGeeks (n.d.) *Program for Newton-Raphson Method*. Available at: https://www.geeksforgeeks.org/program-for-newton-raphson-method/ (*Week 6, squareroot.py*).
 
-Matplotlib (n.d.) matplotlib.pyplot.savefig — Save a figure. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html
+GeeksforGeeks (n.d.) *Square root of a perfect square*. Available at: https://www.geeksforgeeks.org/square-root-of-a-perfect-square/ (*Week 6, squareroot.py*).
 
-Matplotlib (2019) matplotlib.pyplot.savefig — Save a figure. Available at: https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.savefig.html
+GitHub Copilot (n.d.) *GitHub Copilot*. Available at: https://copilot.github.com/ (*Week 3, accounts.py*).
 
-NumPy (n.d.) numpy.random.normal — Normal (Gaussian) Distributions. Available at: https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html
+Killbourne, A.M. and Williams, M.V. (2003) ‘Understanding the literature on cultural competence and health care disparities’, *Public Health Reports*, 118(4), pp. 293–302. Available at: https://pmc.ncbi.nlm.nih.gov/articles/PMC1480066/ (*Week 7, numberofes.py*).
 
-NumPy (n.d.) numpy.round_ — Round an array to the given number of decimals. Available at: https://numpy.org/doc/stable/reference/generated/numpy.round_.html
+Matplotlib (n.d.) *matplotlib.colors — Colors in Matplotlib*. Available at: https://matplotlib.org/stable/tutorials/colors/colors.html (*Week 8, plottask.py*).
 
-NumPy (n.d.) numpy.linspace — Return evenly spaced numbers over a specified interval. Available at: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html
+Matplotlib (n.d.) *matplotlib.pyplot.hist — Plot a histogram*. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html (*Week 8, plottask.py*).
 
-NumPy (n.d.) numpy.ndarray — N-dimensional array object. Available at: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html
+Matplotlib (n.d.) *matplotlib.pyplot.plot — Plot lines and/or markers to the axes*. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html (*Week 8, plottask.py*).
 
-Stack Overflow (2011) matplotlib savefig plots different from show. Available at: https://stackoverflow.com/questions/7906365/matplotlib-savefig-plots-different-from-show
+Matplotlib (n.d.) *matplotlib.pyplot.savefig — Save a figure*. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html (*Week 8, plottask.py*).
+
+Matplotlib (2019) *matplotlib.pyplot.savefig — Save a figure*. Available at: https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.savefig.html (*Week 8, plottask.py*).
+
+Matplotlib (n.d.) *matplotlib.pyplot — Matplotlib’s Pyplot*. Available at: https://matplotlib.org/stable/tutorials/introductory/pyplot.html (*Week 8, plottask.py*).
+
+Matplotlib (n.d.) *matplotlib.legend — Matplotlib Legend Guide*. Available at: https://matplotlib.org/stable/tutorials/intermediate/legend_guide.html (*Week 8, plottask.py*).
+
+Menai, K. (n.d.) *accounts.py – pands-weekly-tasks repository*. Available at: https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/accounts.py (*Week 7, numberofes.py*).
+
+Menai, K. (n.d.) *collatz.py – pands-weekly-tasks repository*. Available at: https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/collatz.py (*Week 7, numberofes.py*).
+
+Menai, K. (n.d.) *grade2.py – Basic structure of if/else loop*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/grade2.py (*Week 6, squareroot.py*).
+
+Menai, K. (n.d.) *stringformat.py – Format output to 2 decimal places*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week03/stringformat.py (*Week 6, squareroot.py*).
+
+Menai, K. (n.d.) *whileloop.py – pands-mywork repository*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/whileloop.py (*Week 4, collatz.py*).
+
+Menai, K. (n.d.) *userinloop.py – pands-mywork repository*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/userinloop.py (*Week 4, collatz.py*).
+
+Menai, K. (n.d.) *iseven.py – pands-mywork repository*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/iseven.py (*Week 4, collatz.py*).
+
+Menai, K. (n.d.) *iseven2.py – pands-mywork repository*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/iseven2.py (*Week 4, collatz.py*).
+
+NumPy (n.d.) *numpy.random.normal — Normal (Gaussian) Distributions*. Available at: https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html (*Week 8, plottask.py*).
+
+NumPy (n.d.) *numpy.round_ — Round an array to the given number of decimals*. Available at: https://numpy.org/doc/stable/reference/generated/numpy.round_.html (*Week 8, plottask.py*).
+
+NumPy (n.d.) *numpy.linspace — Return evenly spaced numbers over a specified interval*. Available at: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html (*Week 8, plottask.py*).
+
+NumPy (n.d.) *numpy.ndarray — N-dimensional array object*. Available at: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html (*Week 8, plottask.py*).
+
+Programiz (n.d.) *Python datetime: Manipulate Dates and Times in Python*. Available at: https://www.programiz.com/python-programming/datetime/current-datetime (*Week 5, weekday.py*).
+
+Python Software Foundation (n.d.) *Built-in Exceptions*. Available at: https://docs.python.org/3/library/exceptions.html (*Week 7, numberofes.py*).
+
+Python Software Foundation (n.d.) *Errors and Exceptions – Python 3 Tutorial*. Available at: https://docs.python.org/3/tutorial/errors.html (*Week 7, numberofes.py*).
+
+Python Software Foundation (n.d.) *urllib.request — Extensible library for opening URLs*. Available at: https://docs.python.org/3/library/urllib.request.html (*Week 7, numberofes.py*).
+
+Real Python (n.d.) *Python String Formatting*. Available at: https://realpython.com/python-string-formatting/#interpolating-and-formatting-strings-in-python (*Week 3, accounts.py*).
+
+Real Python (n.d.) *Python While Loops – A Comprehensive Guide*. Available at: https://realpython.com/python-while-loop/ (*Week 6, squareroot.py*).
+
+Real Python (n.d.) *Understanding Python Iterators: A Guide*. Available at: https://realpython.com/python-iterators/ (*Week 6, squareroot.py*).
+
+Real Python (n.d.) *Using Assignment Expressions in Python*. Available at: https://realpython.com/python-assignment-expressions/ (*Week 6, squareroot.py*).
+
+Stack Overflow (2011) *matplotlib savefig plots different from show*. Available at: https://stackoverflow.com/questions/7906365/matplotlib-savefig-plots-different-from-show (*Week 8, plottask.py*).
+
+Stack Overflow (2013) *How to limit the input of a user to only 10 digits*. Available at: https://stackoverflow.com/questions/19970569/how-to-limit-the-input-of-a-user-to-only-10-digits (*Week 3, accounts.py*).
+
+Veritasium (2021) ‘The Simplest Math Problem No One Can Solve - Collatz Conjecture’, *YouTube*. Available at: https://www.youtube.com/watch?v=094y1Z2wpJg&t=1s (*Week 4, collatz.py*).
+
+W3Schools (n.d.) *Python datetime Module*. Available at: https://www.w3schools.com/python/python_datetime.asp (*Week 5, weekday.py*).
+
+W3Schools (n.d.) *Python ref_func_len() Method*. Available at: https://www.w3schools.com/python/ref_func_len.asp (*Week 3, accounts.py*).
+
+W3Schools (n.d.) *Python ref_func_slice() Method*. Available at: https://www.w3schools.com/python/ref_func_slice.asp (*Week 3, accounts.py*).
+
+W3Schools (n.d.) *Python String Formatting*. Available at: https://www.w3schools.com/python/python_string_formatting.asp (*Week 2, bank.py*).
