@@ -31,7 +31,7 @@ plt.legend(title='Legend')
 plt.savefig('week8task_figure_1_normaldist1000.png')
 plt.show()
 
-# Plot output shown in: week8task_figure_1_normaldis1000.png for histogram of normal distribution of 1000 values.
+# Plot output shown in: week8task_figure_1_normaldist1000.png for histogram of normal distribution of 1000 values.
 
 # PART 2
 
@@ -50,7 +50,7 @@ plt.legend(title='Legend')
 plt.savefig('week8task_figure_2_h(x)plot.png')
 plt.show()
 
-# Plot output shown in: week8task_figure_2_hx3.png for plot of the function h(x)=x^3 in the range 0 to 10.
+# Plot output shown in: week8task_figure_2_h(x)plot.png for plot of the function h(x)=x^3 in the range 0 to 10.
 
 # References:
 # https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html
