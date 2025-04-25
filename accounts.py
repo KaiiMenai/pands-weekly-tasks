@@ -84,6 +84,5 @@ print(f"Thank you account: {allbarfour}.")
     # To limit input to 10 digits https://stackoverflow.com/questions/19970569/how-to-limit-the-input-of-a-user-to-only-10-digits
     # Used length of input to limit the number of digits but also to replace all but the last 4 digits with X's. https://www.w3schools.com/python/ref_func_len.asp
     # I asked copilot to expllain how I would modify the output characters 1 to 6/all bar last 4 as X's. https://copilot.github.com/
-    # The extra reading I did for this task was to understand the slice function in Python. https://www.w3schools.com/python/ref_func_slice.asp
 
 # End
