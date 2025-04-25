@@ -1,7 +1,15 @@
 # Programming and Scripting - Weekly Tasks
 
-## Week 1
+Structure of each output
+Python Program name: TITLE
+Brief Task Description: DESCRIPTION
+Example code: If short enough, if not, only packages will be shown.
 
+## Week 1 - helloworld.py
+
+Python Program name: helloworld.py
+Brief Task Description: Commit and push a file to the weekly tasks repository called helloworld.py This file should contain a python program that displays Hello World! when it is run.
+Example code: print ('Hello World!')
 ## Week 2
 
 ## Week 3
