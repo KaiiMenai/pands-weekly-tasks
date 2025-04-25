@@ -1,13 +1,5 @@
 # Programming and Scripting - Weekly Tasks
 
-Structure of each output:
-
-Python Program name: TITLE
-
-### Brief Task Description: DESCRIPTION
-
-Example code: If short enough, if not, only packages will be shown.
-
 ## Week 1 - helloworld.py
 
 Python Program name: helloworld.py
