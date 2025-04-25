@@ -6,7 +6,7 @@ References included at the bottom with relevant task and program noted.
 
 Python Program name: helloworld.py
 
-Task Description
+**Task Description**
 
 - Commit and push a file to the weekly tasks repository called helloworld.py 
 - This file should contain a python program that displays Hello World! when it is run.
@@ -21,7 +21,7 @@ print ('Hello World!')
 
 Python Program name: bank.py
 
-Task Description
+**Task Description**
 
 The program should:
 
@@ -46,7 +46,7 @@ print(txt)
 
 Python Program name: accounts.py
 
-Task Description
+**Task Description**
 
 The program should:
 
@@ -89,7 +89,7 @@ print(f"Thank you account: {allbarfour}.")
 
 Python Program name: collatz.py
 
-Task Description
+**Task Description**
 
 The program should:
 
@@ -117,7 +117,7 @@ while True:
 
 Python Program name: weekday.py
 
-Task Description
+**Task Description**
 
 - Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py).
 - You will need to search the web to find how you work out what day it is. 
@@ -145,7 +145,7 @@ else:
 
 Python Program name: squareroot.py
 
-Task Description
+**Task Description**
 
 - Write a program that takes a positive floating-point number as input and outputs an approximation of its square root.
 - You should create a function called <tt>sqrt</tt> that does this.
@@ -171,7 +171,7 @@ else:
 
 Python Program name: numberofes.py
 
-Task Description
+**Task Description**
 
 - Write a program that reads in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making.
 - The program should take the filename from an argument on the command line. I have not shown you how to do this, you need to look it up.
@@ -220,7 +220,7 @@ else:
 
 Python Program name: plottask.py
 
-Task Description
+**Task Description**
 
 Write a program called plottask.py that displays:
 
