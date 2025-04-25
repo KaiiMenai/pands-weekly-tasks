@@ -33,7 +33,7 @@ print(txt)
     # The sum of these is €2.45.
 
 # References:
-    # My own Ppands-my work repository https://github.com/KaiiMenai/pands-mywork/blob/12940891d05aaf77403654a383bcd57e7e86c184/week02/money.py
+    # My own pands-mywork repository https://github.com/KaiiMenai/pands-mywork/blob/12940891d05aaf77403654a383bcd57e7e86c184/week02/money.py
     # Answer by "Elegent" on stackoverflow (22/11/2015) https://stackoverflow.com/questions/33861401/convert-cents-to-euro
     # Further reading worksheet https://www.w3schools.com/python/python_string_formatting.asp
 
