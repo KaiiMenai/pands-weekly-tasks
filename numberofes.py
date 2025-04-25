@@ -43,12 +43,12 @@ if total_count > 0:
 else:
     print("Failed to count the occurrences of 'e'.")
     
-# Output: - When using https://gist.github.com/StevenClontz/4445774#file-mobydick-txt
-            # The letter 'e' appears 234844 times as lowercase and 854 times as uppercase.
-            # Total occurrences of the letter 'e' (both uppercase and lowercase): 235698.
-        # - When using https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665d940495645a5eaaad4da8e3ad4c7/mobydick.txt
+# Output: - When using https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665d940495645a5eaaad4da8e3ad4c7/mobydick.txt
             # The letter 'e' appears 58820 times as lowercase and 826 times as uppercase.
             # Total occurrences of the letter 'e' (both uppercase and lowercase): 59646.
+            # # - When using https://gist.github.com/StevenClontz/4445774#file-mobydick-txt
+            # The letter 'e' appears 234844 times as lowercase and 854 times as uppercase.
+            # Total occurrences of the letter 'e' (both uppercase and lowercase): 235698.
 # I have tested this code with the URL provided and it works as expected. I have also tested it with other URLs and it works as expected.
 # I have also tested it with a URL that does not exist and it returns an error message as expected.
 
