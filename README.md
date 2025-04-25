@@ -38,7 +38,13 @@ print(txt)
 ## Week 3
 
 Python Program name: TITLE
-Brief Task Description: DESCRIPTION
+Brief Task Description: The program should:
+    - Prompt the user for a 10 character account number.
+    - Output the account number with only the last 4 digits shown. For security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs).
+    - $ python pandsaccount.py
+    - Please enter your account number: 1234567890
+    - The last 4 digits of your account number are 7890
+Extra: Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
 Example code:
 
 ## Week 4
