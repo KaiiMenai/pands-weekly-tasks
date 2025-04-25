@@ -58,7 +58,10 @@ else:
 # https://docs.python.org/3/library/urllib.request.html
 # https://docs.python.org/3/library/exceptions.html
 # https://docs.python.org/3/tutorial/errors.html
-# accounts.py and collatz.py as examples of how to structure the code. As well as examples of using a custom designed function as well as using the if, while, else statements.
-# Killbourne and Williams, 2003. https://pmc.ncbi.nlm.nih.gov/articles/PMC1480066/#:~:text=UTF-8%20encodes%20Unicode%20characters,Interchange)%20includes%20128%20character%20codes
+    # accounts.py https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/accounts.py
+    # collatz.py https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/collatz.py as examples of how to structure the code. As well as examples of using a custom designed function as well as using the if, while, else statements.
+# Killbourne and Williams, 2003. https://pmc.ncbi.nlm.nih.gov/articles/PMC1480066/
+# https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665d940495645a5eaaad4da8e3ad4c7/mobydick.txt
+# https://gist.github.com/StevenClontz/4445774#file-mobydick-txt
 
 # END

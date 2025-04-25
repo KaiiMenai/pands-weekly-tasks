@@ -97,6 +97,19 @@ print(f"Thank you account: {allbarfour}.")
 
 References:
 
+Menai, K. (n.d.) pands-mywork repository – week02/money.py. Available at: https://github.com/KaiiMenai/pands-mywork/blob/12940891d05aaf77403654a383bcd57e7e86c184/week02/money.py
+
+Menai, K. (n.d.) Weekly Task 2 – bank.py. Available at: https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/bank.py
+
+Real Python (n.d.) Python String Formatting. Available at: https://realpython.com/python-string-formatting/#interpolating-and-formatting-strings-in-python
+
+W3Schools (n.d.) Python ref_func_slice() Method. Available at: https://www.w3schools.com/python/ref_func_slice.asp
+
+Stack Overflow (2013) How to limit the input of a user to only 10 digits. Available at: https://stackoverflow.com/questions/19970569/how-to-limit-the-input-of-a-user-to-only-10-digits
+
+W3Schools (n.d.) Python ref_func_len() Method. Available at: https://www.w3schools.com/python/ref_func_len.asp
+
+GitHub Copilot (n.d.) GitHub Copilot. (Asked copilot to explain how to would modify the output characters 1 to 6/all bar last 4 as X's.) Available at: https://copilot.github.com/
 
 ## Week 4 - collatz.py
 
@@ -128,6 +141,15 @@ while True:
 
 References:
 
+Veritasium (2021) The Simplest Math Problem No One Can Solve - Collatz Conjecture. YouTube. Available at: https://www.youtube.com/watch?v=094y1Z2wpJg&t=1s
+
+Menai, K. (n.d.) whileloop.py – pands-mywork repository. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/whileloop.py
+
+Menai, K. (n.d.) userinloop.py – pands-mywork repository. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/userinloop.py
+
+Menai, K. (n.d.) iseven.py – pands-mywork repository. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/iseven.py
+
+Menai, K. (n.d.) iseven2.py – pands-mywork repository. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/iseven2.py
 
 ## Week 5 - weekday.py
 
@@ -159,6 +181,13 @@ else:
 
 References:
 
+Python Software Foundation (n.d.) datetime — Basic date and time types. Available at: https://docs.python.org/3/library/datetime.html
+
+W3Schools (n.d.) Python datetime Module. Available at: https://www.w3schools.com/python/python_datetime.asp
+
+Programiz (n.d.) Python datetime: Manipulate Dates and Times in Python. Available at: https://www.programiz.com/python-programming/datetime/current-datetime
+
+SheCodes (n.d.) How to Check What Day of the Week It Is in Python. Available at: https://www.shecodes.io/athena/10185-how-to-check-what-day-of-the-week-it-is-in-python
 
 ## Week 6 - squareroot.py
 
@@ -188,6 +217,25 @@ else:
 
 References:
 
+Flexiple (n.d.) Newton Raphson Method in Python. Available at: https://flexiple.com/python/newton-raphson-method-python
+
+GeeksforGeeks (n.d.) Square root of a perfect square. Available at: https://www.geeksforgeeks.org/square-root-of-a-perfect-square/
+
+GeeksforGeeks (n.d.) Find root of a number using Newton’s method. Available at: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/
+
+GeeksforGeeks (n.d.) Program for Newton-Raphson Method. Available at: https://www.geeksforgeeks.org/program-for-newton-raphson-method/
+
+Menai, K. (n.d.) grade2.py – Basic structure of if/else loop. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/grade2.py
+
+Menai, K. (n.d.) stringformat.py – Format output to 2 decimal places. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week03/stringformat.py
+
+Real Python (n.d.) Python While Loops – A Comprehensive Guide. Available at: https://realpython.com/python-while-loop/
+
+Real Python (n.d.) Understanding Python Iterators: A Guide. Available at: https://realpython.com/python-iterators/
+
+Real Python (n.d.) Using Assignment Expressions in Python. Available at: https://realpython.com/python-assignment-expressions/
+
+Wikipedia (n.d.) Newton's method. Available at: https://en.wikipedia.org/wiki/Newton%27s_method
 
 ## Week 7 - numberofes.py
 
