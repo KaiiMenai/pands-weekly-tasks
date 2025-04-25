@@ -1,5 +1,7 @@
 # Programming and Scripting - Weekly Tasks
 
+References included at the bottom with relevant task and program noted.
+
 ## Week 1 - helloworld.py
 
 Python Program name: helloworld.py
