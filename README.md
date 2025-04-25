@@ -13,7 +13,7 @@ Python Program name: helloworld.py
 
 Example code:
 
-```
+```ruby
 print ('Hello World!')
 ```
 
@@ -30,7 +30,7 @@ The program should:
 - Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
 
 Example code:
-```
+```ruby
 print("Hello," + "\tPlease enter the following amounts in cents.")
 x = input("Enter amount 1: ")
 y = input("Enter amount 2: ")
@@ -56,7 +56,7 @@ The program should:
 Extra: Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
 
 Example code:
-```
+```ruby
 print("Hello," + "\tPlease enter your 10 digit account number.")
 number = input("Enter your account number: ")
 while len(number) != 10:
@@ -72,7 +72,7 @@ print(f"Thank you account: {firstsix}." )
 ```
 
 Extra:
-```
+```ruby
 print("Hello," + "\tPlease enter your account number.")
 second = input("Enter your account number: ")
 
@@ -101,7 +101,7 @@ The program should:
 - The program will end if/when the current value is one.
 
 Example code:
-```
+```ruby
 while True:
     number = int(input("Enter a positive integer: "))
     print(number)
@@ -129,7 +129,7 @@ import datetime
 ```
 
 Example code:
-```
+```ruby
 today = datetime.datetime.today()
 
 if today.weekday() == 4:
@@ -154,7 +154,7 @@ Python Program name: squareroot.py
 - This is a more difficult task than some of the others, but will be marked equally, so only do as much work on this as you feel comfortable.
 
 Example code:
-```
+```ruby
 to_root = float(input("Please enter a positive number: "))
 # print(to_root) # To check that the input is being stored correctly.
 
@@ -183,7 +183,7 @@ import urllib.request
 ```
 
 Example code:
-```
+```ruby
 # Function to count occurrences of the letter 'e' in a file from a URL.
 def count_letter_e_in_url(url):
     try:
@@ -236,7 +236,7 @@ import matplotlib as mpl
 ```
 
 Example code:
-```
+```ruby
 # First create the values for the normal distribution. Requirements are 1000 values, mean of 5 and standard deviation of 2.
 mean = 5
 std_dev = 2
