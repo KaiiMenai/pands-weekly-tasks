@@ -35,9 +35,9 @@ def converttoeuro(sum):
 txt = f"The sum of these is {converttoeuro(sum)}."
 print(txt)
 
-## Week 3
+## Week 3 - accounts.py
 
-Python Program name: TITLE
+Python Program name: accounts.py
 Brief Task Description: The program should:
     - Prompt the user for a 10 character account number.
     - Output the account number with only the last 4 digits shown. For security reasons some applications only display the last 4 characters (with the other other characters replaced with Xs).
@@ -46,6 +46,30 @@ Brief Task Description: The program should:
     - The last 4 digits of your account number are 7890
 Extra: Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
 Example code:
+print("Hello," + "\tPlease enter your 10 digit account number.")
+number = input("Enter your account number: ")
+while len(number) != 10:
+    number = input("That was not a 10 digit number. Please enter your 10 digit account number: ") # I modified the program so that if a number that wasn't 10 digits was entered, the user would be prompted to enter a 10 digit number.
+
+def accountnumber(number):
+    return number[-4:]               # This will take the last 4 digits of the account number.
+
+firstsix = 'X' * 6 + number[6:]
+
+print(f"The last 4 digits of your account number are {accountnumber(number)}.")
+print(f"Thank you account: {firstsix}." )
+
+Extra:
+print("Hello," + "\tPlease enter your account number.")
+second = input("Enter your account number: ")
+
+def accountnumber(second):
+    return second[-4:]
+
+allbarfour = 'X' * (len(second) - 4) + second[-4:]      # Replace all characters except the last 4 with 'X's
+
+print(f"The last 4 digits of your account number are {accountnumber(second)}.")
+print(f"Thank you account: {allbarfour}.")
 
 ## Week 4
 
