@@ -71,11 +71,26 @@ allbarfour = 'X' * (len(second) - 4) + second[-4:]      # Replace all characters
 print(f"The last 4 digits of your account number are {accountnumber(second)}.")
 print(f"Thank you account: {allbarfour}.")
 
-## Week 4
+## Week 4 - collatz.py
 
-Python Program name: TITLE
-Brief Task Description: DESCRIPTION
+Python Program name: collatz.py
+Brief Task Description: The program should:
+    - Ask the user to input a positive integer.
+    - Will output successive values following the calculation method outlined.
+    - At each step, it will calculate the next value by taking the current value and:
+            - If EVEN, divide by two.
+            - If ODD, multiply by three and then add one.
+    - The program will end if/when the current value is one.
 Example code:
+while True:
+    number = int(input("Enter a positive integer: "))
+    print(number)
+    while number != 1:
+        if number % 2 == 0:
+            number = number // 2
+        else:
+            number = number * 3 + 1
+        print(number)
 
 ## Week 5
 
