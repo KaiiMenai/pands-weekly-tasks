@@ -92,11 +92,23 @@ while True:
             number = number * 3 + 1
         print(number)
 
-## Week 5
+## Week 5 - weekday.py
 
-Python Program name: TITLE
-Brief Task Description: DESCRIPTION
+Python Program name: weekday.py
+Brief Task Description: # Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py). You will need to search the web to find how you work out what day it is. There is no user input.
+Packages:
+import datetime
+
 Example code:
+today = datetime.datetime.today()
+
+if today.weekday() == 4:
+    print("Yes, unfortunately today is a weekday.")
+elif today.weekday() == 5 or today.weekday() == 6:
+    print("It is the weekend, yay!")
+else:
+    days_to_weekend = 4 - today.weekday()
+    print(f"{days_to_weekend} days until the weekend.")
 
 ## Week 6
 
