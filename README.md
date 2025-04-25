@@ -326,6 +326,8 @@ GeeksforGeeks (n.d.) *Program for Newton-Raphson Method*. Available at: https://
 
 GeeksforGeeks (n.d.) *Square root of a perfect square*. Available at: https://www.geeksforgeeks.org/square-root-of-a-perfect-square/ (*Week 6, squareroot.py*).
 
+GitHub (n.d.) *Creating and Highlighting Code Blocks*. Available at: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks (*Markdown Syntax Highlighting*).
+
 GitHub Copilot (n.d.) *GitHub Copilot*. Available at: https://copilot.github.com/ (*Week 3, accounts.py*).
 
 Killbourne, A.M. and Williams, M.V. (2003) ‘Understanding the literature on cultural competence and health care disparities’, *Public Health Reports*, 118(4), pp. 293–302. Available at: https://pmc.ncbi.nlm.nih.gov/articles/PMC1480066/ (*Week 7, numberofes.py*).
