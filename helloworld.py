@@ -1,8 +1,10 @@
 # helloworld.py
 # Week 1 task
 # Prints "Hello, world!" to the screen.
+# Commit and push a file to the weekly tasks repository called helloworld.py
+# This file should contain a python program that displays Hello World! when it is run.
 # author: Kyra Menai Hamilton
 
-print ('Hello, world!')
+print ('Hello World!')
 
 # End
