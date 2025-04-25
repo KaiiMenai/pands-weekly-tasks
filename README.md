@@ -288,6 +288,21 @@ else:
 
 References:
 
+Clontz, S. (n.d.) mobydick.txt – Moby Dick full text (Herman Melville). Available at: https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665d940495645a5eaaad4da8e3ad4c7/mobydick.txt
+
+Clontz, S. (n.d.) mobydick.txt (gist repository overview). Available at: https://gist.github.com/StevenClontz/4445774#file-mobydick-txt
+
+Killbourne, A.M. and Williams, M.V. (2003) ‘Understanding the literature on cultural competence and health care disparities’, Public Health Reports, 118(4), pp. 293–302. Available at: https://pmc.ncbi.nlm.nih.gov/articles/PMC1480066/
+
+Menai, K. (n.d.) accounts.py – pands-weekly-tasks repository. Available at: https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/accounts.py
+
+Menai, K. (n.d.) collatz.py – pands-weekly-tasks repository. Available at: https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/collatz.py
+
+Python Software Foundation (n.d.) Built-in Exceptions. Available at: https://docs.python.org/3/library/exceptions.html
+
+Python Software Foundation (n.d.) Errors and Exceptions – Python 3 Tutorial. Available at: https://docs.python.org/3/tutorial/errors.html
+
+Python Software Foundation (n.d.) urllib.request — Extensible library for opening URLs. Available at: https://docs.python.org/3/library/urllib.request.html
 
 ## Week 8 - plottask.py
 
@@ -387,3 +402,26 @@ plt.show()
 
 References:
 
+Matplotlib (n.d.) matplotlib.pyplot.hist — Plot a histogram. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hist.html (Accessed: 25 April 2025).
+
+Matplotlib (n.d.) matplotlib.pyplot.plot — Plot lines and/or markers to the axes. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html (Accessed: 25 April 2025).
+
+Matplotlib (n.d.) matplotlib.colors — Colors in Matplotlib. Available at: https://matplotlib.org/stable/tutorials/colors/colors.html (Accessed: 25 April 2025).
+
+Matplotlib (n.d.) matplotlib.pyplot — Matplotlib’s Pyplot. Available at: https://matplotlib.org/stable/tutorials/introductory/pyplot.html (Accessed: 25 April 2025).
+
+Matplotlib (n.d.) matplotlib.legend — Matplotlib Legend Guide. Available at: https://matplotlib.org/stable/tutorials/intermediate/legend_guide.html (Accessed: 25 April 2025).
+
+Matplotlib (n.d.) matplotlib.pyplot.savefig — Save a figure. Available at: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html (Accessed: 25 April 2025).
+
+Matplotlib (2019) matplotlib.pyplot.savefig — Save a figure. Available at: https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.savefig.html (Accessed: 25 April 2025).
+
+NumPy (n.d.) numpy.random.normal — Normal (Gaussian) Distributions. Available at: https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html (Accessed: 25 April 2025).
+
+NumPy (n.d.) numpy.round_ — Round an array to the given number of decimals. Available at: https://numpy.org/doc/stable/reference/generated/numpy.round_.html (Accessed: 25 April 2025).
+
+NumPy (n.d.) numpy.linspace — Return evenly spaced numbers over a specified interval. Available at: https://numpy.org/doc/stable/reference/generated/numpy.linspace.html (Accessed: 25 April 2025).
+
+NumPy (n.d.) numpy.ndarray — N-dimensional array object. Available at: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html (Accessed: 25 April 2025).
+
+Stack Overflow (2011) matplotlib savefig plots different from show. Available at: https://stackoverflow.com/questions/7906365/matplotlib-savefig-plots-different-from-show (Accessed: 25 April 2025).
