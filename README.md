@@ -25,6 +25,7 @@ Brief Task Description: The program should:
     - The sum of these is €2.45
 
 Example code:
+```
 print("Hello," + "\tPlease enter the following amounts in cents.")
 x = input("Enter amount 1: ")
 y = input("Enter amount 2: ")
@@ -34,6 +35,7 @@ def converttoeuro(sum):
 
 txt = f"The sum of these is {converttoeuro(sum)}."
 print(txt)
+```
 
 ## Week 3 - accounts.py
 
@@ -46,6 +48,7 @@ Brief Task Description: The program should:
     - The last 4 digits of your account number are 7890
 Extra: Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
 Example code:
+```
 print("Hello," + "\tPlease enter your 10 digit account number.")
 number = input("Enter your account number: ")
 while len(number) != 10:
@@ -58,8 +61,10 @@ firstsix = 'X' * 6 + number[6:]
 
 print(f"The last 4 digits of your account number are {accountnumber(number)}.")
 print(f"Thank you account: {firstsix}." )
+```
 
 Extra:
+```
 print("Hello," + "\tPlease enter your account number.")
 second = input("Enter your account number: ")
 
@@ -70,6 +75,7 @@ allbarfour = 'X' * (len(second) - 4) + second[-4:]      # Replace all characters
 
 print(f"The last 4 digits of your account number are {accountnumber(second)}.")
 print(f"Thank you account: {allbarfour}.")
+```
 
 ## Week 4 - collatz.py
 
@@ -82,6 +88,7 @@ Brief Task Description: The program should:
             - If ODD, multiply by three and then add one.
     - The program will end if/when the current value is one.
 Example code:
+```
 while True:
     number = int(input("Enter a positive integer: "))
     print(number)
@@ -91,6 +98,7 @@ while True:
         else:
             number = number * 3 + 1
         print(number)
+```
 
 ## Week 5 - weekday.py
 
@@ -100,6 +108,7 @@ Packages:
 import datetime
 
 Example code:
+```
 today = datetime.datetime.today()
 
 if today.weekday() == 4:
@@ -109,6 +118,7 @@ elif today.weekday() == 5 or today.weekday() == 6:
 else:
     days_to_weekend = 4 - today.weekday()
     print(f"{days_to_weekend} days until the weekend.")
+```
 
 ## Week 6
 
