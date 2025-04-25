@@ -122,9 +122,9 @@ else:
     print(f"{days_to_weekend} days until the weekend.")
 ```
 
-## Week 6
+## Week 6 - squareroot.py
 
-Python Program name: TITLE
+Python Program name: squareroot.py
 Brief Task Description: DESCRIPTION
 Example code:
 ```
