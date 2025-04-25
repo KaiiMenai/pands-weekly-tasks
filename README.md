@@ -18,7 +18,10 @@ Task Description
 - This file should contain a python program that displays Hello World! when it is run.
 
 Example code:
+
+```
 print ('Hello World!')
+```
 
 ## Week 2 - bank.py
 
