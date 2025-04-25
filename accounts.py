@@ -77,7 +77,7 @@ print(f"Thank you account: {allbarfour}.")
     # Thank you account: XXXXXXXX5566.
 
 # References:   
-    # My own Ppands-my work repository https://github.com/KaiiMenai/pands-mywork/blob/12940891d05aaf77403654a383bcd57e7e86c184/week02/money.py
+    # My own pands-my work repository https://github.com/KaiiMenai/pands-mywork/blob/12940891d05aaf77403654a383bcd57e7e86c184/week02/money.py
     # Weekly Task 2 bank.py
     # Extra reading worksheet https://realpython.com/python-string-formatting/#interpolating-and-formatting-strings-in-python
     # Extra reading https://www.w3schools.com/python/ref_func_slice.asp
