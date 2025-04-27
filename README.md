@@ -19,7 +19,7 @@ There are three PNG files, these are figures for the task during week 8.
 
 A copy of the weekly tasks PDF file is contained to ensure clarity and adherence to the course requirements.
 
-References included at the bottom with relevant task and task program noted.
+References are included at the bottom of the README.md with relevant task and task program noted.
 
 ## Week 1 - helloworld.py
 
