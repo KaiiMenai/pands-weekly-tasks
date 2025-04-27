@@ -399,8 +399,6 @@ GitHub (n.d.) *Creating and Highlighting Code Blocks*. Available at: https://doc
 
 GitHub Copilot (n.d.) *GitHub Copilot*. Available at: https://copilot.github.com/ (*Week 3, accounts.py*).
 
-KaiiMenai (n.d.) *loopyloop.py*. GitHub. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/loopyloop.py (*Week 7, numberofes.py*)
-
 Killbourne, A.M. and Williams, M.V. (2003) ‘Understanding the literature on cultural competence and health care disparities’, *Public Health Reports*, 118(4), pp. 293–302. Available at: https://pmc.ncbi.nlm.nih.gov/articles/PMC1480066/ (*Week 7, numberofes.py*).
 
 Matplotlib (2019) *matplotlib.pyplot.savefig — Save a figure*. Available at: https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.savefig.html (*Week 8, plottask.py*).
