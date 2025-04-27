@@ -8,13 +8,16 @@
 to_root = float(input("Please enter a positive number: "))
 # print(to_root) # To check that the input is being stored correctly.
 
-if to_root <0:                                                          # The program will not work for negative numbers.
-    print("Please enter a positive number. ")
-else:
-    approx_root = to_root/2                                             # Initial guess will be half of the number.
-    while abs(to_root - approx_root**2) > 0.01:                         # The loop will run until the difference between the number and the square root of the approximation is less than 0.01.
-        approx_root = (approx_root + to_root/approx_root)/2             # The approximation will be updated using the formula for Newton's method.
-    print(f"The square root of {to_root} is approx. {approx_root:.2f}.")    # The approx. square root will be printed out.
+# realised my initial input isn't actually a function, so I changed it to be a function.
+
+def sqrt(to_root):
+    if to_root <0:                                                          # The program will not work for negative numbers.
+        print("Please enter a positive number. ")
+    else:
+        approx_root = to_root/2                                             # Initial guess will be half of the number.
+        while abs(to_root - approx_root**2) > 0.01:                         # The loop will run until the difference between the number and the square root of the approximation is less than 0.01.
+            approx_root = (approx_root + to_root/approx_root)/2             # The approximation will be updated using the formula for Newton's method.
+        print(f"The square root of {to_root} is approx. {approx_root:.2f}.")    # The approx. square root will be printed out.
 
 # Output: 
 # Please enter a positive number: 14.5
