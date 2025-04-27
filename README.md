@@ -25,7 +25,7 @@ References included at the bottom with relevant task and task program noted.
 
 Python Program name: helloworld.py
 
-<u> **Task Description** </u>
+<u>**Task Description**</u>
 
 - Commit and push a file to the weekly tasks repository called helloworld.py 
 - This file should contain a python program that displays Hello World! when it is run.
