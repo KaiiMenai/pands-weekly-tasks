@@ -40,3 +40,30 @@ if total_count > 0:
     print(f"Total occurrences of the letter 'e' (both uppercase and lowercase): {total_count}.")
 else:
     print("Failed to count the occurrences of 'e'.")
+    
+# Output 
+# File downloaded and saved as mobydick.txt in pands-weekly-tasks directory.
+# The letter 'e' appears 58820 times as lowercase and 826 times as uppercase.
+# Total occurrences of the letter 'e' (both uppercase and lowercase): 59646.
+
+
+# References:
+# https://docs.python.org/3/library/urllib.request.html
+# https://docs.python.org/3/library/exceptions.html
+# https://docs.python.org/3/tutorial/errors.html
+    # accounts.py https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/accounts.py
+    # collatz.py https://github.com/KaiiMenai/pands-weekly-tasks/blob/main/collatz.py as examples of how to structure the code. As well as examples of using a custom designed function as well as using the if, while, else statements.
+# Killbourne and Williams, 2003. https://pmc.ncbi.nlm.nih.gov/articles/PMC1480066/
+# https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665d940495645a5eaaad4da8e3ad4c7/mobydick.txt
+# https://gist.github.com/StevenClontz/4445774#file-mobydick-txt
+# https://docs.python.org/3/library/urllib.request.html
+# https://python.readthedocs.io/fr/stable/howto/urllib2.html
+# Discussion on urllib.request.urlretrieve vs urlopen on Stack Overflow - https://stackoverflow.com/questions/56915019/should-i-switch-from-urllib-request-urlretrieve-to-urllib-request-urlopen
+# https://www.scivision.dev/python-switch-urlretrieve-requests-timeout/
+# File reading with encoding in Python (open() function) - https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/07-Files-Character-Encoding.html
+# Counting characters in a string with str.count() method - https://note.nkmk.me/en/python-str-count/
+# https://www.programiz.com/python-programming/exception-handling
+# https://www.w3schools.com/python/python_try_except.asp
+# https://stackoverflow.com/questions/1155617/count-the-number-of-occurrences-of-a-character-in-a-string
+
+# END
