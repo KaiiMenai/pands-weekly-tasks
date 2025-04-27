@@ -373,15 +373,17 @@ Menai, K. (n.d.) *collatz.py – pands-weekly-tasks repository*. Available at: h
 
 Menai, K. (n.d.) *grade2.py – Basic structure of if/else loop*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/grade2.py (*Week 6, squareroot.py*).
 
-Menai, K. (n.d.) *stringformat.py – Format output to 2 decimal places*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week03/stringformat.py (*Week 6, squareroot.py*).
-
-Menai, K. (n.d.) *whileloop.py – pands-mywork repository*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/whileloop.py (*Week 4, collatz.py*).
-
-Menai, K. (n.d.) *userinloop.py – pands-mywork repository*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/userinloop.py (*Week 4, collatz.py*).
-
 Menai, K. (n.d.) *iseven.py – pands-mywork repository*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/iseven.py (*Week 4, collatz.py*).
 
 Menai, K. (n.d.) *iseven2.py – pands-mywork repository*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/iseven2.py (*Week 4, collatz.py*).
+
+Menai, K. (n.d.) *loopyloop.py - while loop function*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/loopyloop.py (*Week 6, squareroot.py*).
+
+Menai, K. (n.d.) *stringformat.py – Format output to 2 decimal places*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week03/stringformat.py (*Week 6, squareroot.py*).
+
+Menai, K. (n.d.) *userinloop.py – pands-mywork repository*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/userinloop.py (*Week 4, collatz.py*).
+
+Menai, K. (n.d.) *whileloop.py – pands-mywork repository*. Available at: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/whileloop.py (*Week 4, collatz.py*).
 
 NumPy (n.d.) *numpy.random.normal — Normal (Gaussian) Distributions*. Available at: https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html (*Week 8, plottask.py*).
 
