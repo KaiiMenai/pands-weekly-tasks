@@ -29,9 +29,6 @@ while True:
     except ValueError:                                                    # If the input is not a number (float), the program will ask for a number again.            
         print("Please enter a valid number. ")
 
-# Get the function to run and print output.
-print(sqrt(to_root))
-
 # Output: 
 # Please enter a positive number: 14.5
 # The square root of 14.5 is approx. 3.81
