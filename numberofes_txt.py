@@ -20,18 +20,14 @@ except Exception as e:
 # Function to count occurrences of the letter 'e' in a file from a URL.
 def count_letter_e_in_url(url):
     try:
-        # Open the URL and read the content
-        with urllib.request.urlopen(url) as response:
-            content = response.read().decode('utf-8')  # Decode the content to a string
-            
+        with open(filename, 'r', encoding='utf-8') as file:
+            content = file.read() # Read the content of the file.
             # Count occurrences of 'e' (lowercase) and 'E' (uppercase)
             lowercase_e_count = content.count('e')
             uppercase_e_count = content.count('E')
-            
             # Calculate the total count
             total_count = lowercase_e_count + uppercase_e_count
-            
             return lowercase_e_count, uppercase_e_count, total_count
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"An error occurred while reading the file: {e}")
         return 0, 0, 0
