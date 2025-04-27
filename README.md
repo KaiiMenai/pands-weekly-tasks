@@ -6,14 +6,14 @@ Contained within this repository (pands-weekly-tasks) are programs made for part
 
 There are eight programs, these are in order of the weekly tasks:
 
-- helloworld.py
-- bank.py
-- accounts.py
-- collatz.py
-- weekday.py
-- squareroot.py
-- numberofes.py
-- plottask.py
+1. helloworld.py
+2. bank.py
+3. accounts.py
+4. collatz.py
+5. weekday.py
+6. squareroot.py
+7. numberofes.py
+8. plottask.py
 
 There are three PNG files, these are figures for the task during week 8.
 
