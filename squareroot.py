@@ -19,6 +19,9 @@ def sqrt(to_root):
 to_root = float(input("Please enter a positive number: "))
 # print(to_root) # To check that the input is being stored correctly.
 
+# Get the function to run and print output.
+print(sqrt(to_root))
+
 # Output: 
 # Please enter a positive number: 14.5
 # The square root of 14.5 is approx. 3.81
