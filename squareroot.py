@@ -18,12 +18,16 @@ def sqrt(to_root):
 
 # Add in while loop to check if the input is a number and if it is positive.
 while True:
-    number = int(input("Enter a positive number: "))
-    print(number)
-    if not number > 0:
-        break
-
-
+    try:
+        to_root = float(input("Please enter a positive number: "))         # The input will be taken as a float.
+        if to_root <0:                                                          # The program will not work for negative numbers.
+            print("The number entered must be positive. Please try again")
+        else:
+            # Get the function to run and print output.                                     
+            print(sqrt(to_root))                      
+            break
+    except ValueError:                                                    # If the input is not a number (float), the program will ask for a number again.            
+        print("Please enter a valid number. ")
 
 
 to_root = float(input("Please enter a positive number: "))
