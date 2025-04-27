@@ -30,8 +30,7 @@ Python Program name: helloworld.py
 - Commit and push a file to the weekly tasks repository called helloworld.py 
 - This file should contain a python program that displays Hello World! when it is run.
 
-Example code:
-
+Code Extract:
 ```ruby
 print ('Hello World!')
 ```
@@ -48,7 +47,7 @@ The program should:
 - add the two amounts
 - Print out the answer in a human readable format with a euro sign and decimal point between the euro and cent of the amount.
 
-Example code:
+Code Extract:
 ```ruby
 print("Hello," + "\tPlease enter the following amounts in cents.")
 x = input("Enter amount 1: ")
@@ -74,7 +73,7 @@ The program should:
 
 Extra: Modify the program to deal with account numbers of any length (yes that is a vague requirement, comment your assumptions)
 
-Example code:
+Code Extract:
 ```ruby
 print("Hello," + "\tPlease enter your 10 digit account number.")
 number = input("Enter your account number: ")
@@ -90,7 +89,7 @@ print(f"The last 4 digits of your account number are {accountnumber(number)}.")
 print(f"Thank you account: {firstsix}." )
 ```
 
-Extra:
+Extra Code Extract:
 ```ruby
 print("Hello," + "\tPlease enter your account number.")
 second = input("Enter your account number: ")
@@ -119,7 +118,7 @@ The program should:
   - If ODD, multiply by three and then add one.
 - The program will end if/when the current value is one.
 
-Example code:
+Code Extract:
 ```ruby
 while True:
     number = int(input("Enter a positive integer: "))
@@ -147,7 +146,7 @@ Packages:
 import datetime
 ```
 
-Example code:
+Code Extract:
 ```ruby
 today = datetime.datetime.today()
 
@@ -171,7 +170,7 @@ The program should:
 - Take a positive floating-point number as input and outputs an approximation of its square root.
 - The function that does this should be called <tt>sqrt</tt>.
 
-Example code:
+Code Extract:
 ```ruby
 to_root = float(input("Please enter a positive number: "))
 # print(to_root) # To check that the input is being stored correctly.
@@ -198,7 +197,7 @@ The program should:
 
 NOTE:
 
-Initially I had difficulties with VSCode where it wasn't correctly loading some packages, so at first I did this task from a URL, I have now corrected it to txt form. 
+Initially I had difficulties with VSCode where it wasn't correctly loading some packages, so at first I did this task from a URL, I have now corrected it to txt form.
 I have included both here in the interest of clarity and transparency.
 
 Packages:
@@ -208,7 +207,7 @@ from urllib.request import urlretrieve
 ```
 
 *Python Program name: numberofes_url.py*
-Example code:
+Code Extract:
 ```ruby
 # Function to count occurrences of the letter 'e' in a file from a URL.
 def count_letter_e_in_url(url):
@@ -243,7 +242,7 @@ else:
 ```
 
 *Python Program name: numberofes_txt.py*
-Example code:
+Code Extract:
 ```ruby
 url = "https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665d940495645a5eaaad4da8e3ad4c7/mobydick.txt"
 filename = "mobydick.txt"
@@ -299,7 +298,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 ```
 
-Example code:
+Code Extract:
 ```ruby
 # First create the values for the normal distribution. Requirements are 1000 values, mean of 5 and standard deviation of 2.
 mean = 5
