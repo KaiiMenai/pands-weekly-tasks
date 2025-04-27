@@ -4,7 +4,7 @@ author: Kyra Menai Hamilton
 
 Contained within this repository (pands-weekly-tasks) are programs made for part of the assessment for the Program and Scripting Module (2025 January start).
 
-There are nine programs relevant to the course, these are in order of the weekly tasks:
+There are nine programs relevant to the course (there are two separate ones for week 7, I have included these on the number 7 point), these are in order of the weekly tasks:
 
 1. helloworld.py
 2. bank.py
