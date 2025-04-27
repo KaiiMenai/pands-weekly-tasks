@@ -185,23 +185,29 @@ else:
     print(f"The square root of {to_root} is approx. {approx_root:.2f}.")    # The approx. square root will be printed out.
 ```
 
-## Week 7 - numberofes.py
+## Week 7 - numberofes_url.py / numberofes_txt.py
 
-Python Program name: numberofes.py
+Python Program name: numberofes_url.py / numberofes_txt.py
 
 **Task Description**
 
 The program should:
 
-- Read in a text file and outputs the number of e's it contains. Think about what is being asked here, document any assumptions you are making.
-- The program should take the filename from an argument on the command line. I have not shown you how to do this, you need to look it up.
-- Marks will be given for dealing with errors eg no argument, filename that does not exist, or is not a text file.
+- Read in a text file and outputs the number of e's it contains.
+- The program should take the filename from an argument on the command line.
+
+NOTE:
+
+Initially I had difficulties with VSCode where it wasn't correctly loading some packages, so at first I did this task from a URL, I have now corrected it to txt form. 
+I have included both here in the interest of clarity and transparency.
 
 Packages:
 ```
-import urllib.request 
+import urllib.request
+from urllib.request import urlretrieve
 ```
 
+*Python Program name: numberofes_url.py*
 Example code:
 ```ruby
 # Function to count occurrences of the letter 'e' in a file from a URL.
@@ -229,6 +235,44 @@ url = "https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665d
 lowercase_count, uppercase_count, total_count = count_letter_e_in_url(url)
 
 # Print the results - I wanted to make sure that I checked both the lowercase and uppercase 'e' characters.
+if total_count > 0:
+    print(f"The letter 'e' appears {lowercase_count} times as lowercase and {uppercase_count} times as uppercase.")
+    print(f"Total occurrences of the letter 'e' (both uppercase and lowercase): {total_count}.")
+else:
+    print("Failed to count the occurrences of 'e'.")
+```
+
+*Python Program name: numberofes_txt.py*
+Example code:
+```ruby
+url = "https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665d940495645a5eaaad4da8e3ad4c7/mobydick.txt"
+filename = "mobydick.txt"
+
+try:
+    urlretrieve(url, filename)
+    print("File downloaded and saved as mobydick.txt in pands-weekly-tasks directory.")
+except Exception as e:
+    print(f"Error downloading file: {e}")
+    exit(1)
+    
+# Function to count occurrences of the letter 'e' in a file from a URL.
+def count_letter_e_in_file(filename):
+    try:
+        with open(filename, 'r', encoding='utf-8') as file:
+            content = file.read() # Read the content of the file.
+            # Count occurrences of 'e' (lowercase) and 'E' (uppercase)
+            lowercase_e_count = content.count('e')
+            uppercase_e_count = content.count('E')
+            # Calculate the total count
+            total_count = lowercase_e_count + uppercase_e_count
+            return lowercase_e_count, uppercase_e_count, total_count
+    except Exception as e:
+        print(f"An error occurred while reading the file: {e}")
+        return 0, 0, 0
+
+# Step 3: Use the function to count and print results
+lowercase_count, uppercase_count, total_count = count_letter_e_in_file(filename)
+
 if total_count > 0:
     print(f"The letter 'e' appears {lowercase_count} times as lowercase and {uppercase_count} times as uppercase.")
     print(f"Total occurrences of the letter 'e' (both uppercase and lowercase): {total_count}.")
