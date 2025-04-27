@@ -17,7 +17,6 @@ def sqrt(to_root):
         return f"The square root of {to_root} is approx. {approx_root:.2f}."    # The approx. square root will be printed out.
 
 to_root = float(input("Please enter a positive number: "))
-# print(to_root) # To check that the input is being stored correctly.
 
 # Get the function to run and print output.
 print(sqrt(to_root))
