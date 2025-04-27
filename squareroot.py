@@ -16,6 +16,16 @@ def sqrt(to_root):
             approx_root = (approx_root + to_root/approx_root)/2             # The approximation will be updated using the formula for Newton's method.
         return f"The square root of {to_root} is approx. {approx_root:.2f}."    # The approx. square root will be printed out.
 
+# Add in while loop to check if the input is a number and if it is positive.
+while True:
+    number = int(input("Enter a positive number: "))
+    print(number)
+    if not number > 0:
+        break
+
+
+
+
 to_root = float(input("Please enter a positive number: "))
 
 # Get the function to run and print output.
