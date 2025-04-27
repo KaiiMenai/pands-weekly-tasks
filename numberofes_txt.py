@@ -32,7 +32,7 @@ def count_letter_e_in_file(filename):
         print(f"An error occurred while reading the file: {e}")
         return 0, 0, 0
 
-# Step 3: Use the function to count and print results
+# Count the es with the function and print the results.
 lowercase_count, uppercase_count, total_count = count_letter_e_in_file(filename)
 
 if total_count > 0:
