@@ -1,6 +1,6 @@
 # Programming and Scripting - Weekly Tasks
 
-author: Kyra Menai Hamilton
+**author: Kyra Menai Hamilton**
 
 Contained within this repository (pands-weekly-tasks) are programs made for part of the assessment for the Program and Scripting Module (2025 January start).
 
@@ -490,3 +490,5 @@ W3Schools (n.d.) *Python ref_func_slice() Method*. Available at: https://www.w3s
 W3Schools (n.d.) *Python try-except explanation and examples on W3Schools*. Available at: https://www.w3schools.com/python/python_try_except.asp (*Week 7, numberofes.py*)
 
 Walsh, M. (n.d.) *File reading with encoding in Python (open() function)*. Available at: https://melaniewalsh.github.io/Intro-Cultural-Analytics/02-Python/07-Files-Character-Encoding.html (*Week 7, numberofes.py*)
+
+# END
