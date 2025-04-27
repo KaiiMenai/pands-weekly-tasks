@@ -30,7 +30,6 @@ while True:
         print("Please enter a valid number. ")
 
 
-to_root = float(input("Please enter a positive number: "))
 
 # Get the function to run and print output.
 print(sqrt(to_root))
