@@ -1,6 +1,24 @@
 # Programming and Scripting - Weekly Tasks
 
-References included at the bottom with relevant task and program noted.
+author: Kyra Menai Hamilton
+
+Contained within this repository (pands-weekly-tasks) are programs made for part of the assessment for the Program and Scripting Module (2025 January start).
+There are eight programs, these are in order of the weekly tasks:
+
+- helloworld.py
+- bank.py
+- accounts.py
+- collatz.py
+- weekday.py
+- squareroot.py
+- numberofes.py
+- plottask.py
+
+There are three PNG files, these are figures for the task during week 8.
+
+A copy of the weekly tasks PDF file is contained to ensure clarity and adherence to the course requirements.
+
+References included at the bottom with relevant task and task program noted.
 
 ## Week 1 - helloworld.py
 
