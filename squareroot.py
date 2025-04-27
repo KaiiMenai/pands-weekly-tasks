@@ -30,9 +30,10 @@ while True:
         print("Please enter a valid number. ")
 
 # Output: 
+# Please enter a positive number: -2
+# The number entered must be positive. Please try again
 # Please enter a positive number: 14.5
-# The square root of 14.5 is approx. 3.81
-
+# The square root of 14.5 is approx. 3.81.
 
 # References: 
 
