@@ -4,7 +4,7 @@ author: Kyra Menai Hamilton
 
 Contained within this repository (pands-weekly-tasks) are programs made for part of the assessment for the Program and Scripting Module (2025 January start).
 
-There are eight programs, these are in order of the weekly tasks:
+There are nine programs relevant to the course, these are in order of the weekly tasks:
 
 1. helloworld.py
 2. bank.py
@@ -12,14 +12,16 @@ There are eight programs, these are in order of the weekly tasks:
 4. collatz.py
 5. weekday.py
 6. squareroot.py
-7. numberofes.py
+7. numberofes_url.py / numberofes_txt.py
 8. plottask.py
 
-There are three PNG files, these are figures for the task during week 8.
+There is a txt file (mobydick.txt) that is used for the week 7 task.
 
-A copy of the weekly tasks PDF file is contained to ensure clarity and adherence to the course requirements.
+There are three PNG files, these are figures from the week 8 task. These figures are for the Normal Distribution of 1000 values (*week8task_figure_1_normaldist1000.png*), for the h(x)=x^3 function (*week8task_figure_2_h(x)plot.png*), and for a combined plot of the normal distribution and h(x)=x^3 function (*week8task_figure_3_combined_plot.png*).
 
-References are included at the bottom of the README.md with relevant task and task program noted.
+The weekly tasks PDF file was followed to ensure content clarity and adherence to the course requirements.
+
+References are included at the bottom of the README.md with relevant task and task program noted. A referencing tool created for alphabetisation is also included for transparency (reference_tool.py).
 
 ## Week 1 - helloworld.py
 
@@ -207,6 +209,7 @@ from urllib.request import urlretrieve
 ```
 
 *Python Program name: numberofes_url.py*
+
 Code Extract:
 ```ruby
 # Function to count occurrences of the letter 'e' in a file from a URL.
@@ -242,6 +245,7 @@ else:
 ```
 
 *Python Program name: numberofes_txt.py*
+
 Code Extract:
 ```ruby
 url = "https://gist.githubusercontent.com/StevenClontz/4445774/raw/1722a289b665d940495645a5eaaad4da8e3ad4c7/mobydick.txt"
