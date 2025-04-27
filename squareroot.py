@@ -39,6 +39,7 @@ while True:
 
 # Basic structure of if else loop: https://github.com/KaiiMenai/pands-mywork/blob/main/week04/grade2.py
 # To get 2 dp answer: https://github.com/KaiiMenai/pands-mywork/blob/main/week03/stringformat.py
+# while loop - https://github.com/KaiiMenai/pands-mywork/blob/main/week04/loopyloop.py
 # https://realpython.com/python-while-loop/
 # https://realpython.com/python-iterators/
 # https://realpython.com/python-assignment-expressions/
