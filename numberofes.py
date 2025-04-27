@@ -8,6 +8,10 @@
 # I did the same with the pandas module and it also didn't work. I am not sure why requests did not work. 
 # I then tried to use urllib.request and it worked as expected.
 # I chose to use urllib.request as it was the only one that worked for me.
+# I assumed with the use of this code that the text file would be in the same directory as the code. I also assumed that the text file would be in the same format as the one provided in the URL.
+# An assumption was made that the letter 'e' would be in the text file and that it would be in the correct format for the code to work.
+# I assumed that all 'e' letters would be counted and that if there were any other letters in the text file that they would not be counted.
+# I assumed that the code would not read special characters or numbers and that it would only read letters.
 
 # Import urllib.request
 import urllib.request
