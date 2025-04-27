@@ -18,7 +18,7 @@ except Exception as e:
     exit(1)
     
 # Function to count occurrences of the letter 'e' in a file from a URL.
-def count_letter_e_in_url(url):
+def count_letter_e_in_file(filename):
     try:
         with open(filename, 'r', encoding='utf-8') as file:
             content = file.read() # Read the content of the file.
@@ -31,3 +31,12 @@ def count_letter_e_in_url(url):
     except Exception as e:
         print(f"An error occurred while reading the file: {e}")
         return 0, 0, 0
+
+# Step 3: Use the function to count and print results
+lowercase_count, uppercase_count, total_count = count_letter_e_in_file(filename)
+
+if total_count > 0:
+    print(f"The letter 'e' appears {lowercase_count} times as lowercase and {uppercase_count} times as uppercase.")
+    print(f"Total occurrences of the letter 'e' (both uppercase and lowercase): {total_count}.")
+else:
+    print("Failed to count the occurrences of 'e'.")
