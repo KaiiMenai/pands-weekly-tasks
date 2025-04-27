@@ -5,9 +5,6 @@
 
 # This will be done without the math module or any other inbuilt function in python (for the purpose of the task).
 
-to_root = float(input("Please enter a positive number: "))
-# print(to_root) # To check that the input is being stored correctly.
-
 # realised my initial input isn't actually a function, so I changed it to be a function.
 
 def sqrt(to_root):
@@ -18,6 +15,9 @@ def sqrt(to_root):
         while abs(to_root - approx_root**2) > 0.01:                         # The loop will run until the difference between the number and the square root of the approximation is less than 0.01.
             approx_root = (approx_root + to_root/approx_root)/2             # The approximation will be updated using the formula for Newton's method.
         return f"The square root of {to_root} is approx. {approx_root:.2f}."    # The approx. square root will be printed out.
+
+to_root = float(input("Please enter a positive number: "))
+# print(to_root) # To check that the input is being stored correctly.
 
 # Output: 
 # Please enter a positive number: 14.5
